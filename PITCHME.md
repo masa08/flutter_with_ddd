@@ -24,6 +24,10 @@ Masataka Ushijima
 
 ### Today's topic
 
++++?image=assets/flutter.png
+
+### Flutter with DDD
+
 ---
 
 ### What’s flutter
