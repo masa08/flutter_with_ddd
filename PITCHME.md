@@ -24,7 +24,7 @@ Masataka Ushijima
 
 ### Today's topic
 
-+++?image=assets/flutter_logo.png
++++?image=assets/flutter_logo.png&size=contain
 
 ### Flutter with DDD
 
@@ -54,8 +54,8 @@ Masataka Ushijima
 
 ---
 
-### ProCon
+### Pros and Cons
 
 ---
 
-### Thank you
+### Thank you!
