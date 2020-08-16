@@ -1,8 +1,7 @@
-### こんにちは！
+### Beginner’s guide to Flutter with DDD
 
-
-これはサンプルのスライド資料です。
-
+2020/08/25
+Masataka Ushijima
 
 ---
 
