@@ -24,7 +24,7 @@ Masataka Ushijima
 
 ### Today's topic
 
-+++?image=assets/flutter.png
++++?image=assets/flutter_logo.png
 
 ### Flutter with DDD
 
