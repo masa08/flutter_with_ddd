@@ -34,7 +34,7 @@ Masataka Ushijima
 
 ---
 
-### How to develop a Native app in flutter
+### How to develop with Flutter
 
 ---
 
