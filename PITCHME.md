@@ -101,30 +101,39 @@ Object oriented programing language like JS
 
 +++
 
-Domain Driven Development
-- ドメインの知識に焦点を当てた設計手法
-- [WIP]各用語の説明
+Domain Driven Design
+- The process to design software with OOP
+  - Entity
+  - Value Object
+  - Service
+  - Repository
+  - Factory
 
 +++
 
-ドメイン駆動設計を実現するための多くのアーキテクチャが存在
+Architectures
 
-- ヘキサゴナルアーキテクチャ
-- オニオンアーキテクチャ
-- クリーンアーキテクチャ
+- Layered architecture
+- Hexagonal architecture
+- Onion arthitecture
+- Clean architecture
+
++++
+
+### Onion arthitecture
 
 +++
 
-今回はオニオンアーキテクチャを採用
-- 選定理由
-  - 設計初心者にもわかりやすいディレクトリ構成
-  - 小規模アプリの開発だったので、クリーンアーキテクチャレベルのディレクトリ訳は必要なかった
+- Why choose this architecture
+  - Simple directory architecture for beginner
+  - A lot of useful infomation
 
----
-
-### What’s The Onion Architecture
+https://qiita.com/little_hand_s/items/ebb4284afeea0e8cc752
+https://kabochapo.hateblo.jp/entry/2019/11/01/195130
 
 +++
+
+What’s The Onion Architecture
 
 [WIP]Explain Architecture
 - 図を用いながら各層について説明
