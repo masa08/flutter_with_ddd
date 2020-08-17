@@ -41,7 +41,7 @@ https://flutter.dev/
 
 +++
 
-- Multi platform SDK
+- Multi platform SDK made by Google
   - Fast Development(Hot Reload, etc)
   - Expressive, beautiful UI
   - Native Performance
@@ -61,9 +61,24 @@ Example Code
 
 What's Dart
 
-- JSの代替言語としてgoogleが開発
-- Object oriented programing language、JSの雰囲気が強い
-- JITコンパイルとAOTコンパイルでパフォーマンスの最適化
+> Dart is a client-optimized language for fast apps on any platform
+
+https://dart.dev/
+
++++
+
+- The programming language made by Google
+  - Optimizefor UI
+  - Productive Development
+  - Fast on all platforms
+
++++
+
+Example Code
+
+Object oriented programing language like JS
+
+[WIP]dartの特徴がわかるクラスのコードを書く
 
 ---
 

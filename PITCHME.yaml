@@ -11,4 +11,4 @@ slide-number: true
 footnote :  "© 2020 masa08"
 
 #Transition Setting(遷移時のアクション。convex, concave, default, fade, none, slide, zoom が設定可)
-transition : fade
+transition : convex
