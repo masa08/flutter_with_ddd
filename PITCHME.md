@@ -35,18 +35,31 @@ Masataka Ushijima
 
 What's Flutter
 
+> Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
+
+https://flutter.dev/
+
++++
+
 - Multi platform SDK
-  - ホットリロード等による高い生産性
-  - 高度なカスタマイズが可能なUI
-  - ネイティブ並みのパフォーマンス
-  - 宣言型プログラミングで書きやすい
+  - Fast Development(Hot Reload, etc)
+  - Expressive, beautiful UI
+  - Native Performance
+
++++
+
+Example Code
+
+[WIP]宣言的にウィジェットを重ねてアプリを構築することがわかるような資料
+
 
 ---
 
 ### What’s dart
 
 +++
-What's Flutter
+
+What's Dart
 
 - JSの代替言語としてgoogleが開発
 - Object oriented programing language、JSの雰囲気が強い
