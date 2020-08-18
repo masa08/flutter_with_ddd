@@ -142,8 +142,9 @@ https://kabochapo.hateblo.jp/entry/2019/11/01/195130
 
 What’s The Onion Architecture
 
-[WIP]Explain Architecture
-- 図を用いながら各層について説明
+![height=500](assets/onion.png)
+
+https://dev.to/danielrusnok/onion-architecture-or-how-to-not-make-spaghetti-244b
 
 ---
 
