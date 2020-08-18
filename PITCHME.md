@@ -153,37 +153,43 @@ https://dev.to/danielrusnok/onion-architecture-or-how-to-not-make-spaghetti-244b
 +++
 
 - lib/
-  - application
-  - domain
-  - infrastructure
-  - presentation
+  - application/
+  - domain/
+  - infrastructure/
+  - presentation/
+  - main.dart
+
+[WIP]各層で何をしているのかを完全に理解する
 
 +++
 
-- application
-  - dto
-  - service
+- application/
+  - dto/
+  - service/
 
 +++
 
-- domain
-  - model
-  - service
+- domain/
+  - model/
+  - service/
 
 +++
 
-- infrastructure
+- infrastructure/
+  - getit/
+  - repository/
+  - sqflite/
 
 +++
 
-- presentation
-  - notifier
-  - ui
-    - atoms
-    - molecules
-    - organisms
-    - pages
-    - template
+- presentation/
+  - notifier/
+  - ui/
+    - atoms/
+    - molecules/
+    - organisms/
+    - pages/
+    - template/
 
 ---
 
@@ -195,7 +201,15 @@ Pros
 
 +++
 
+[WIP]他の設計と比較した時にDDDの何がいいのかを語る
+
++++
+
 Cons
+
++++
+
+[WIP]他の設計と比較した時にDDDの何がいいのかを語る
 
 ---
 
