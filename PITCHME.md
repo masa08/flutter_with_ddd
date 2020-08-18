@@ -102,7 +102,7 @@ Conpile dart files for...
 - Android
 - Web browser
 
----
+---?image=assets/domein.jpg&size=contain
 
 ### What’s DDD
 
@@ -142,7 +142,7 @@ https://kabochapo.hateblo.jp/entry/2019/11/01/195130
 
 What’s The Onion Architecture
 
-![height=500](assets/onion.png)
+![height=400](assets/onion.png)
 
 https://dev.to/danielrusnok/onion-architecture-or-how-to-not-make-spaghetti-244b
 
@@ -152,11 +152,11 @@ https://dev.to/danielrusnok/onion-architecture-or-how-to-not-make-spaghetti-244b
 
 +++
 
-[WIP]図を表示しながら各層について説明
-- application
-- domain
-- infrastructure
-- presentation
+- lib/
+  - application
+  - domain
+  - infrastructure
+  - presentation
 
 +++
 
