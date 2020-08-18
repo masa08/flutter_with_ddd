@@ -102,7 +102,7 @@ Conpile dart files for...
 - Android
 - Web browser
 
----?image=assets/domein.jpg&size=contain
+---
 
 ### What’s DDD
 
