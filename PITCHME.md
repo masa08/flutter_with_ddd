@@ -23,11 +23,11 @@ Masataka Ushijima
 
 ### Today's topic
 
-+++?image=assets/flutter_logo.png&size=contain
++++
 
 ### Flutter with DDD
 
----
+---?image=assets/flutter_logo.png&size=contain
 
 ### What’s flutter
 
@@ -53,7 +53,7 @@ Example Code
 [WIP]宣言的にウィジェットを重ねてアプリを構築することがわかるような資料
 
 
----
+---?image=assets/dart.png&size=contain
 
 ### What’s dart
 
