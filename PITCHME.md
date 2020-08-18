@@ -86,14 +86,21 @@ Object oriented programing language like JS
 
 +++
 
-[WIP]The process to compile flutter code to native code
+Directory Structure
+- lib/
+  - We write code in this directory mainly
+- test/
+- android/
+- ios/
+- pubspec.yaml
 
 +++
 
-プロジェクト構成
+Conpile dart files for...
 
-- libのmain.dartが読み込まれる
-- lib以下に自由にディレクトリを構成してアプリケーションを作成していく
+- iOS
+- Android
+- Web browser
 
 ---
 
