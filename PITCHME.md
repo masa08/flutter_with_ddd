@@ -46,12 +46,6 @@ https://flutter.dev/
   - Expressive, beautiful UI
   - Native Performance
 
-+++
-
-Example Code
-
-[WIP]宣言的にウィジェットを重ねてアプリを構築することがわかるような資料
-
 
 ---?image=assets/dart.png&size=contain
 
@@ -71,14 +65,7 @@ https://dart.dev/
   - Optimizefor UI
   - Productive Development
   - Fast on all platforms
-
-+++
-
-Example Code
-
-Object oriented programing language like JS
-
-[WIP]dartの特徴がわかるクラスのコードを書く
+  - Object oriented programing language like JS/Java
 
 ---
 
@@ -87,8 +74,8 @@ Object oriented programing language like JS
 +++
 
 Directory Structure
-- lib/
-  - We write code in this directory mainly
+- lib/ => We write code in this directory mainly
+  - main.dart
 - test/
 - android/
 - ios/
@@ -100,7 +87,7 @@ Conpile dart files for...
 
 - iOS
 - Android
-- Web browser
+- Web browser(JS)
 
 ---
 
@@ -158,8 +145,6 @@ https://dev.to/danielrusnok/onion-architecture-or-how-to-not-make-spaghetti-244b
   - infrastructure/
   - presentation/
   - main.dart
-
-[WIP]各層で何をしているのかを完全に理解する
 
 +++
 
