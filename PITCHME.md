@@ -147,6 +147,8 @@ https://dev.to/danielrusnok/onion-architecture-or-how-to-not-make-spaghetti-244b
   - presentation/
   - main.dart
 
++++?image=assets/flow.png&size=contain
+
 +++
 
 application(= usecase)
@@ -177,8 +179,8 @@ infrastructure
 presentation
 
 - presentation/
-  - notifier/ => managing state using provider
-  - ui/ => set directory according atomic design
+  - notifier/ => managing state with provider
+  - ui/ => set directory with atomic design
     - atoms/
     - molecules/
     - organisms/
