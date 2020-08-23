@@ -97,11 +97,12 @@ Conpile dart files for...
 
 Domain Driven Design
 - The process to design software with OOP
-  - Entity
   - Value Object
-  - Service
+  - Entity(= Domain Object)
+  - Service(Domain Service, Application Service)
   - Repository
   - Factory
+  - etc
 
 +++
 
@@ -148,28 +149,36 @@ https://dev.to/danielrusnok/onion-architecture-or-how-to-not-make-spaghetti-244b
 
 +++
 
+application(= usecase)
+
 - application/
-  - dto/
-  - service/
+  - dto/ => data object transfer
+  - service/ => application service
 
 +++
+
+domain
 
 - domain/
-  - model/
-  - service/
+  - model/ => entity & repository & value object
+  - service/ => domain service
 
 +++
+
+infrastructure
 
 - infrastructure/
-  - getit/
-  - repository/
-  - sqflite/
+  - getit/ => setting instance for DI
+  - repository/ => detail repositrotry implementation
+  - sqflite/ => setting sqlite database
 
 +++
 
+presentation
+
 - presentation/
-  - notifier/
-  - ui/
+  - notifier/ => managing state using provider
+  - ui/ => set directory according atomic design
     - atoms/
     - molecules/
     - organisms/
