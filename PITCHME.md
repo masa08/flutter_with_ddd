@@ -197,7 +197,7 @@ Pros
 
 +++
 
-Compared to BLoc pattern and MVVM...
+Compared to BLoC pattern and MVVM...
 
 - Responsibility becomes clear
  - easy to understand directory structure and code
@@ -209,8 +209,8 @@ Cons
 +++
 
 - Costly to design
-- ddd knowledge required
-- we have to set up DI
+- DDD knowledge required
+- setting up DI required
 
 ---
 

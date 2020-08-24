@@ -1,9 +1,6 @@
 #Theme Setting(black, moon, night, beige, sky, white が設定可)
 theme : night
 
-#Logo Setting
-logo : assets/logo.png
-
 #Slide Number Setting
 slide-number: true
 
