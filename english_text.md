@@ -1,8 +1,8 @@
-- Title
+## Title
 Thank you for attending this presentation.
 Today, I would like to talk to you about "Beginner’s guide to Flutter with DDD"
 
-- Self Intoroduction
+## Self Intoroduction
 At first, let me introduce myself.
 My name is Masataka Ushijima and I am software engineer.
 I work at Leverages, HR company in Tokyo, Japan.
@@ -10,12 +10,12 @@ Recently I have made native app with flutter in my job.
 In my free time, I like traveling around the world, training, and customize notion.
 I lived in gaogao tokyo until 03/2020.
 
-- Today's topic
+## Today's topic
 So, Today's topic is flutter with DDD.
 I began to learn about flutter with ddd two month ago.
 Today, I would like to show my knowledge I got in two month.
 
-- What's Flutter
+## What's Flutter
 At first, What is flutter.
 In official site, There is sentence,
 "Flutter is Google's UI toolkit for building beautiful,
@@ -29,7 +29,7 @@ the merit of using flutter are
 - expressive, beautiful UI
 - native performance
 
-- What's Dart
+## What's Dart
 so, next, what's dart.
 
 in official site. there is sentence
@@ -45,7 +45,7 @@ if you use dart with flutter, you can make native apps fastly.
 today's topic is DDD, so if you want to know about dart and flutter,
 let's visit official site. it's very undarstandable.
 
-- How to develop with Flutter
+## How to develop with Flutter
 initial directory like this.
 we write code in lib directory mainly.
 in this directory, you can make directory and files freely.
@@ -53,7 +53,7 @@ when using ddd, you should make them in this directory.
 
 when you compile files, you can use app in ios, android, web.
 
-- what' ddd
+## what' ddd
 DDD is the process to design software with Object oriented programming.
 it is almost Object oriented design.
 there are a lot of concept like this.
@@ -66,7 +66,11 @@ because
 - simple directory architecture for begineer
 - a lot of useful infomation on website
 
-- Directory structure
+this is onion architecture
+domain is center
+presentation, infrastructure depends application, and application depends domain. it's unidirectional.
+
+## Directory structure
 in my flutter project, directory structure like this.
 I would like to introduce this structure.
 
@@ -103,7 +107,8 @@ notifier is for managing state directory
 ui is view directory with atomic design
 
 
-- Pros and Cons
+## Pros and Cons
 
+## thank you
 This is all for my presentation.
 thank you.
