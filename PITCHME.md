@@ -59,7 +59,7 @@ https://dart.dev/
 +++
 
 - The programming language made by Google
-  - Optimizefor UI
+  - Optimize for UI
   - Productive Development
   - Fast on all platforms
   - Object oriented programing language like JS/Java
@@ -196,8 +196,6 @@ Pros
 
 - Responsibility becomes clear
  - easy to understand directory structure and code
-- Repository pattern is very useful
-  - pluggable databases
 
 +++
 
@@ -205,8 +203,8 @@ Cons
 
 +++
 
-- Costly to design
-- DDD(= OOP) knowledge required
+- It consumes time and energy to design
+- DDD(= OOP) knowledge is required
 
 ---
 

@@ -1,6 +1,6 @@
 ## Title
 Thank you for attending this presentation.
-Today, I would like to talk to you about "Beginner’s guide to Flutter with DDD"
+Today, I would like to talk about "Beginner’s guide to Flutter with DDD"
 
 ## Self Intoroduction
 At first, let me introduce myself.
@@ -12,103 +12,117 @@ I lived in gaogao tokyo until 03/2020.
 
 ## Today's topic
 So, Today's topic is flutter with DDD.
-I began to learn about flutter with ddd two month ago.
-Today, I would like to show my knowledge I got in two month.
+I started learning about flutter and DDD two month ago.
+Today, I would like to share my knowledge with you.
+
+[TODO][低]目次
 
 ## What's Flutter
 At first, What is flutter.
-In official site, There is sentence,
+
+The official site defines as follows:
+
 "Flutter is Google's UI toolkit for building beautiful,
 natively compiled applications for mobile, web,
 and desktop from a single codebase"
 
-it means flutter is toolkit for making native app.
+It means that flutter is toolkit for making native app.
 
-the merit of using flutter are
+The benefits of using flutter are
 - fast development, for example, you can use hot reload
 - expressive, beautiful UI
 - native performance
 
 ## What's Dart
-so, next, what's dart.
+So, next, what's dart.
 
-in official site. there is sentence
+The official site defines as follows:
 "Dart is client-optimized language for performance fast apps on any platform."
 
-the merit of using dart are
+The benefits of using dart are
 - optimize for UI
 - productive development
 - fast on all platforms
 - OOP like JS
 
-if you use dart with flutter, you can make native apps fastly.
-today's topic is DDD, so if you want to know about dart and flutter,
-let's visit official site. it's very undarstandable.
+If you use dart with flutter, you can make native apps fastly.
+
+Today's topic is DDD, so if you want to know about dart and flutter more, let's visit official site. It's very easy to understand.
 
 ## How to develop with Flutter
-initial directory like this.
-we write code in lib directory mainly.
-in this directory, you can make directory and files freely.
-when using ddd, you should make them in this directory.
+Initial directory looks like this.
+We mainly write codes in lib directory.
+In this directory, you can make directory and files freely.
+you should make structure of ddd in this directory.
 
-when you compile files, you can use app in ios, android, web.
+When you compile files, you can use app in ios, android, web browser.
 
 ## what' ddd
 DDD is the process to design software with Object oriented programming.
-it is almost Object oriented design.
-there are a lot of concept like this.
+I think it is almost Object oriented design.
+There are a lot of concept like this.
 
-and we can choose architecture from these architecture.
+We can choose architecture when I use DDD.
 
-and I think architecture easy to use for begineer is onionarchitecture
+This project, I chose onion architecture.
 
 because
 - simple directory architecture for begineer
 - a lot of useful infomation on website
 
-this is onion architecture
-domain is center
-presentation, infrastructure depends application, and application depends domain. it's unidirectional.
+This image shows how onion architecture works.
+Domain is center, and presentation, infrastructure depends on application, and application depends on domain. it's unidirectional.
 
 ## Directory structure
-in my flutter project, directory structure like this.
+In my flutter project, directory structure looks like this.
 I would like to introduce this structure.
 
-call flow from presentation
-ui calls notifier
-and notifier calls application service
-and application service calls domain service and domain service calls repository
+Call flow begin from presentation like this image.
+Ui calls notifier
+notifier calls application service
+application service calls domain service
+domain service calls repository
 
-data flow from sqlight and firebase
-infrastructure implements repository and called by domain service
+Data flow begin from concrete databases like this image.
+[WIP]
+Infrastructure implements repository and called by domain service
 
-lets see this in detail
+Let's see this architecture in detail.
 
-at first application
-there are two directory
-dto is making data object for ui
-service is usecase
+At first application directory.
+There are two directory
+[WIP]
+Dto is making data object for ui.
+Service is usecase.
 
-domain
-there are two directory
-model includes entity, repository and value object
-service is domain service
+Second domain directory.
+There are two directory.
+[WIP]
+Model includes entity, repository and value object.
+Service is domain service.
 
-infrastructure
-there are three directory 
-getit for di container, make repository object as singleton
-repository is detail repository implementation
-sqflight is setting swlight database
+Third infrastructure directory.
+There are three directory.
+Getit is for di container and make repository as singleton object.
+Repository is detail repository implementation
+Sqflight is setting database for sqlite.
 
-
-presentation
-there are two directory
-notifier is for managing state directory
-ui is view directory with atomic design
-
+Last presentation diretory.
+There are two directory
+Notifier is for managing state with provider pattern.
+Ui is for view directory with atomic design.
 
 ## Pros and Cons
+At last, I would like to share Pros and Cons.
+
+Pros is as follows:
+- Responsibility becomes clear
+  - it is easy to understand directory structure and codes
+
+Cons is as follows:
+- It consumes time and energy to design
+- DDD(= OOP) knowledge is required
 
 ## thank you
 This is all for my presentation.
-thank you.
+Thank you.
