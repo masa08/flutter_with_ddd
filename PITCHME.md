@@ -197,7 +197,10 @@ Pros
 
 +++
 
-[WIP]他の設計と比較した時にDDDの何がいいのかを語る
+Compared to BLoc pattern and MVVM...
+
+- Responsibility becomes clear
+ - easy to understand directory structure and code
 
 +++
 
@@ -205,7 +208,9 @@ Cons
 
 +++
 
-[WIP]他の設計と比較した時にDDDの何がいいのかを語る
+- Costly to design
+- ddd knowledge required
+- we have to set up DI
 
 ---
 
