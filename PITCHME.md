@@ -22,6 +22,8 @@ Masataka Ushijima
 
 ### Flutter with DDD
 
+※Light DDD
+
 ---?image=assets/flutter_logo.png&size=contain
 
 ### What’s flutter
@@ -196,6 +198,8 @@ Compared to BLoC pattern and MVVM...
 
 - Responsibility becomes clear
  - easy to understand directory structure and code
+- Repository pattern is very useful
+  - pluggable databases
 
 +++
 
@@ -204,8 +208,7 @@ Cons
 +++
 
 - Costly to design
-- DDD knowledge required
-- setting up DI required
+- DDD(= OOP) knowledge required
 
 ---
 
