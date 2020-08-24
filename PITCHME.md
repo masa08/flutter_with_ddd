@@ -215,3 +215,5 @@ Cons
 ---
 
 ### Thank you!
+
+Let's try flutter with DDD!
