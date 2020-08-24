@@ -8,16 +8,11 @@ Masataka Ushijima
 
 ### Self Introduction
 
-- Name
-  - Masataka Ushijima
-- Company
-  - Leverages.inc
-- Work
-  - Making native app with Flutter.
-- Hobby
-  - Traveling
-  - Training
-  - Customize Notion
+- Name: Masataka Ushijima
+- Company: Leverages.inc
+- Work: Making native app with Flutter.
+- Hobby: [ Traveling, Training, Customize Notion ]
+- I lived in gaogao tokyo until 03/2020.
 
 ---
 
