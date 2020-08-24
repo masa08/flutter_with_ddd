@@ -194,8 +194,6 @@ Pros
 
 +++
 
-Compared to BLoC pattern and MVVM...
-
 - Responsibility becomes clear
  - easy to understand directory structure and code
 - Repository pattern is very useful
