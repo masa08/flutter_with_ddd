@@ -13,7 +13,9 @@ I lived in gaogao tokyo until 03/2020.
 ## Today's topic
 So, Today's topic is flutter with DDD.
 I started learning about flutter and DDD two month ago.
-Today, I would like to share my knowledge with you.
+I'm just begineer , but I would like to share my knowledge with you.
+
+I did a demo a while ago and I found that I didn't have enough time, so I'll go quickly first part.
 
 ## What's Flutter
 At first, What is flutter.
@@ -43,7 +45,7 @@ The benefits of using dart are
 - fast on all platforms
 - OOP like JS
 
-If you use dart with flutter, you can make native apps fastly.
+In short, if you use dart with flutter, you can make native apps fastly.
 
 Today's topic is DDD, so if you want to know about dart and flutter more, let's visit official site. It's very easy to understand.
 
@@ -54,6 +56,7 @@ In this directory, you can make directory and files freely.
 you should make structure of ddd in this directory.
 
 When you compile files, you can use app in ios, android, web browser.
+its very good point of flutter.
 
 ## What' ddd
 DDD is the process to design software with Object oriented programming.
@@ -62,11 +65,12 @@ There are a lot of concept like this.
 
 We can choose architecture when I use DDD.
 
-This project, I chose onion architecture.
+This project, We chose onion architecture.
 
-because
+because at first, it is
 - simple directory architecture for begineer
-- a lot of useful infomation on website
+and
+- there are a lot of useful infomation on website
 
 This image shows how onion architecture works.
 Domain is center, including entity and value object.
@@ -120,7 +124,7 @@ Cons is as follows:
 - DDD(= OOP) knowledge is required
 
 ## thank you
-when you use flutter, there are less infomation on website, so it is a little difficult.
+when you use flutter with DDD, there are less infomation on website, so it is a little difficult.
 However you can get merit from flutter with DDD and it leads to confortable development.
 
 This is all for my presentation.
