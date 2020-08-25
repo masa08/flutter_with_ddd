@@ -15,8 +15,6 @@ So, Today's topic is flutter with DDD.
 I started learning about flutter and DDD two month ago.
 Today, I would like to share my knowledge with you.
 
-[TODO][低]目次
-
 ## What's Flutter
 At first, What is flutter.
 
@@ -57,7 +55,7 @@ you should make structure of ddd in this directory.
 
 When you compile files, you can use app in ios, android, web browser.
 
-## what' ddd
+## What' ddd
 DDD is the process to design software with Object oriented programming.
 I think it is almost Object oriented design.
 There are a lot of concept like this.
@@ -71,7 +69,8 @@ because
 - a lot of useful infomation on website
 
 This image shows how onion architecture works.
-Domain is center, and presentation, infrastructure depends on application, and application depends on domain. it's unidirectional.
+Domain is center, including entity and value object.
+Presentation, infrastructure and persistence depends on application, and application depends on domain. it's unidirectional.
 
 ## Directory structure
 In my flutter project, directory structure looks like this.
@@ -84,28 +83,25 @@ application service calls domain service
 domain service calls repository
 
 Data flow begin from concrete databases like this image.
-[WIP]
-Infrastructure implements repository and called by domain service
+Infrastructure implements repository with its interface and called by domain service or application service.
 
 Let's see this architecture in detail.
 
 At first application directory.
 There are two directory
-[WIP]
 Dto is making data object for ui.
-Service is usecase.
+Service is usecase from application user.
 
 Second domain directory.
 There are two directory.
-[WIP]
 Model includes entity, repository and value object.
 Service is domain service.
 
 Third infrastructure directory.
 There are three directory.
-Getit is for di container and make repository as singleton object.
-Repository is detail repository implementation
-Sqflight is setting database for sqlite.
+Getit is library for di container and make repository as singleton object.
+Repository is detail repository implementation with interface.
+Sqflight is setting database for sqlite for excample table and test data setting.
 
 Last presentation diretory.
 There are two directory
@@ -124,5 +120,8 @@ Cons is as follows:
 - DDD(= OOP) knowledge is required
 
 ## thank you
+when you use flutter, there are less infomation on website, so it is a little difficult.
+However you can get merit from flutter with DDD and it leads to confortable development.
+
 This is all for my presentation.
 Thank you.

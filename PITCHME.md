@@ -24,6 +24,17 @@ Masataka Ushijima
 
 ※Light DDD
 
++++
+
+Outline
+
+- What's flutter
+- What's Dart
+- How to develop with Flutter
+- What' ddd
+- Directory structure
+- Pros and Cons
+
 ---?image=assets/flutter_logo.png&size=contain
 
 ### What’s flutter
